@@ -1,0 +1,114 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "约课",
+				"navigationBarBackgroundColor":"#258CFF",
+				"backgroundColor":"#258CFF",
+				"navigationBarTextStyle": "white"
+			}
+		}
+	    ,{
+            "path" : "pages/teacher/teacher",
+            "style" : {
+				"navigationBarTitleText": "老师",
+				"navigationBarBackgroundColor":"#258CFF",
+				"backgroundColor":"#258CFF",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/mechanism/mechanism",
+            "style" : {
+				"navigationBarTitleText": "机构",
+				"navigationBarBackgroundColor":"#258CFF",
+				"backgroundColor":"#258CFF",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/home/home",
+            "style" : {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor":" #29A3FC",
+				"backgroundColor":" #29A3FC",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/tearchScreenBoxs/tearchScreenBoxs",
+            "style" : {
+				"navigationBarTitleText": "约课",
+				"navigationBarBackgroundColor":"#258CFF",
+				"backgroundColor":"#258CFF",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/taerchDetails/taerchDetails",
+            "style" : {
+				"navigationBarTitleText": "老师详情",
+				"navigationBarBackgroundColor":"#258CFF",
+				"backgroundColor":"#258CFF",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/scholl/scholl",
+            "style" : {
+				"navigationBarTitleText": "机构详情",
+				"navigationBarBackgroundColor":"#258CFF",
+				"backgroundColor":"#258CFF",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/schoolCurr/schoolCurr",
+            "style" : {
+				"navigationBarTitleText": "课程详情",
+				"navigationBarBackgroundColor":"#258CFF",
+				"backgroundColor":"#258CFF",
+				"navigationBarTextStyle": "white"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "约课",
+		"navigationBarBackgroundColor": "#258CFF",
+		"backgroundColor": "#258CFF"
+	},
+	"tabBar":{
+		"color":"#333333",
+		"selectedColor":"#1296DB",
+		"backgroundColor":"#ffffff",
+		"borderStyle": "black",
+		"list":[
+			{
+				"pagePath" : "pages/index/index",
+				"iconPath" : "static/imgs/logo/z1.png",
+				"selectedIconPath" : "static/imgs/logo/z2.png",
+				"text" : "首页"
+			},
+			{
+				"pagePath" : "pages/teacher/teacher",
+				"iconPath" : "static/imgs/logo/l1.png",
+				"selectedIconPath" : "static/imgs/logo/l2.png",
+				"text": "老师"
+			},
+			{
+				"pagePath" : "pages/mechanism/mechanism",
+				"iconPath" : "static/imgs/logo/r1.png",
+				"selectedIconPath" : "static/imgs/logo/r2.png",
+				"text": "机构"
+			},
+			{
+				"pagePath" : "pages/home/home",
+				"iconPath" : "static/imgs/logo/m1.png",
+				"selectedIconPath" : "static/imgs/logo/m2.png",
+				"text": "我的"
+			}
+		]
+	}
+}
